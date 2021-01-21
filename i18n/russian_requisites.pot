@@ -1,0 +1,114 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* russian_requisites
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-01 19:49+0000\n"
+"PO-Revision-Date: 2020-05-01 19:49+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: russian_requisites
+#: model:ir.model.fields,help:russian_requisites.field_res_partner__okpo
+#: model:ir.model.fields,help:russian_requisites.field_res_users__okpo
+msgid "All-Russian Classifier of Enterprises and Organizations"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model,name:russian_requisites.model_res_bank
+msgid "Bank"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model,name:russian_requisites.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model.fields,field_description:russian_requisites.field_res_bank__corr_account
+msgid "Corresponding account"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model.fields,help:russian_requisites.field_res_partner__passport_department
+#: model:ir.model.fields,help:russian_requisites.field_res_users__passport_department
+msgid "Department issued the passport"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model.fields,field_description:russian_requisites.field_res_partner__iec
+#: model:ir.model.fields,field_description:russian_requisites.field_res_users__iec
+msgid "IEC"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model.fields,help:russian_requisites.field_res_partner__iec
+#: model:ir.model.fields,help:russian_requisites.field_res_users__iec
+msgid "Industrial Enterprises Classifier"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model.fields,field_description:russian_requisites.field_res_partner__okpo
+#: model:ir.model.fields,field_description:russian_requisites.field_res_users__okpo
+msgid "OKPO"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model.fields,field_description:russian_requisites.field_res_partner__psrn
+#: model:ir.model.fields,field_description:russian_requisites.field_res_users__psrn
+msgid "PSRN"
+msgstr ""
+
+#. module: russian_requisites
+#: model_terms:ir.ui.view,arch_db:russian_requisites.russian_requisites_view_partner_form_inherit
+msgid "Passport"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model.fields,field_description:russian_requisites.field_res_partner__passport_date
+#: model:ir.model.fields,field_description:russian_requisites.field_res_users__passport_date
+msgid "Passport issue date"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model.fields,field_description:russian_requisites.field_res_partner__passport_department
+#: model:ir.model.fields,field_description:russian_requisites.field_res_users__passport_department
+msgid "Passport issued by"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model.fields,help:russian_requisites.field_res_partner__passport_number
+#: model:ir.model.fields,help:russian_requisites.field_res_users__passport_number
+msgid "Passport series and number"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model.fields,field_description:russian_requisites.field_res_partner__passport_number
+#: model:ir.model.fields,field_description:russian_requisites.field_res_users__passport_number
+msgid "Passport №"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model.fields,help:russian_requisites.field_res_partner__passport_date
+#: model:ir.model.fields,help:russian_requisites.field_res_users__passport_date
+msgid "Passport's date of issue"
+msgstr ""
+
+#. module: russian_requisites
+#: model:ir.model.fields,help:russian_requisites.field_res_partner__psrn
+#: model:ir.model.fields,help:russian_requisites.field_res_users__psrn
+msgid "Primary State Registration Number"
+msgstr ""
+
+#. module: russian_requisites
+#: model_terms:ir.ui.view,arch_db:russian_requisites.russian_requisites_view_partner_form_inherit
+msgid "TIN"
+msgstr ""
+
