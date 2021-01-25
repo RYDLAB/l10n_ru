@@ -1,8 +1,8 @@
 <odoo>
   <data>
   
-    <record id="russian_requisites_view_res_bank_form_inherit" model="ir.ui.view">
-      <field name="name">russian_requisites.view_res_bank_form_inherit</field>
+    <record id="l10n_ru_view_res_bank_form_inherit" model="ir.ui.view">
+      <field name="name">view_res_bank_form_inherit</field>
       <field name="model">res.bank</field>
       <field name="inherit_id" ref="base.view_res_bank_form" />
       <field name="arch" type="xml">

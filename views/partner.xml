@@ -1,8 +1,8 @@
 <odoo>
   <data>
 
-    <record id="russian_requisites_view_partner_form_inherit" model="ir.ui.view">
-      <field name="name">russian_requisites.view_partner_form_inherit</field>
+    <record id="l10n_ru_view_partner_form_inherit" model="ir.ui.view">
+      <field name="name">view_partner_form_inherit</field>
       <field name="model">res.partner</field>
       <field name="inherit_id" ref="base.view_partner_form"/>
       <field name="arch" type="xml">
@@ -17,14 +17,12 @@
           </page>
         </xpath>
 
-        <!--xpath expr="//div[@class='o_address_format']" position="after"-->
         <xpath expr="//field[@name='vat']" position="after">
           <field name="okpo" attrs="{'invisible': [('company_type','!=', 'company')]}"/>
           <field name="psrn" attrs="{'invisible': [('company_type','!=', 'company')]}"/>
           <field name="iec" attrs="{'invisible': [('company_type','!=', 'company')]}"/>
         </xpath>
 
-        <!-- Field string was changed to `tax id` in Odoo12 -->
         <xpath expr="//field[@name='vat']" position="attributes">
           <attribute name="string">TIN</attribute>
         </xpath>
