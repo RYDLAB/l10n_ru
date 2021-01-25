@@ -1,2 +1,2 @@
-# russian_requisites
+# l10n_ru
 
