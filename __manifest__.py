@@ -16,9 +16,14 @@
     "website": "https://rydlab.ru",
     "category": "Localization",
     "version": "1.0",
-    "depends": ["base"],
+    "depends": ["base", "account"],
     "data": [
         "views/partner.xml",
         "views/bank.xml",
+        "data/account_chart.xml",
+        "data/account.account.template.csv",
+        "data/account_chart_template.xml",
+        "data/account_tax_template.xml",
+        "data/account_chart_template_data.xml",
     ],
 }
