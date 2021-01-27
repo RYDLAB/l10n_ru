@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-01 19:49+0000\n"
-"PO-Revision-Date: 2021-01-26 17:43+0500\n"
+"PO-Revision-Date: 2021-01-27 10:02+0500\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,95 +21,95 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_ru.field_res_partner__okpo
 #: model:ir.model.fields,help:l10n_ru.field_res_users__okpo
 msgid "All-Russian Classifier of Enterprises and Organizations"
-msgstr ""
+msgstr "Общероссийский Классификатор Предприятий и Организаций"
 
 #. module: l10n_ru
 #: model:ir.model,name:l10n_ru.model_res_bank
 msgid "Bank"
-msgstr ""
+msgstr "Банк"
 
 #. module: l10n_ru
 #: model:ir.model,name:l10n_ru.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Контакт"
 
 #. module: l10n_ru
 #: model:ir.model.fields,field_description:l10n_ru.field_res_bank__corr_account
 msgid "Corresponding account"
-msgstr ""
+msgstr "Корреспондентский счет"
 
 #. module: l10n_ru
 #: model:ir.model.fields,help:l10n_ru.field_res_partner__passport_department
 #: model:ir.model.fields,help:l10n_ru.field_res_users__passport_department
 msgid "Department issued the passport"
-msgstr ""
+msgstr "Подразделение, выдавшее паспорт"
 
 #. module: l10n_ru
 #: model:ir.model.fields,field_description:l10n_ru.field_res_partner__iec
 #: model:ir.model.fields,field_description:l10n_ru.field_res_users__iec
 msgid "IEC"
-msgstr ""
+msgstr "КПП"
 
 #. module: l10n_ru
 #: model:ir.model.fields,help:l10n_ru.field_res_partner__iec
 #: model:ir.model.fields,help:l10n_ru.field_res_users__iec
 msgid "Industrial Enterprises Classifier"
-msgstr ""
+msgstr "Классификатор Промышленных предприятий"
 
 #. module: l10n_ru
 #: model:ir.model.fields,field_description:l10n_ru.field_res_partner__okpo
 #: model:ir.model.fields,field_description:l10n_ru.field_res_users__okpo
 msgid "OKPO"
-msgstr ""
+msgstr "ОКПО"
 
 #. module: l10n_ru
 #: model:ir.model.fields,field_description:l10n_ru.field_res_partner__psrn
 #: model:ir.model.fields,field_description:l10n_ru.field_res_users__psrn
 msgid "PSRN"
-msgstr ""
+msgstr "ОГРН"
 
 #. module: l10n_ru
 #: model_terms:ir.ui.view,arch_db:l10n_ru.l10n_ru_view_partner_form_inherit
 msgid "Passport"
-msgstr ""
+msgstr "Паспорт"
 
 #. module: l10n_ru
 #: model:ir.model.fields,field_description:l10n_ru.field_res_partner__passport_date
 #: model:ir.model.fields,field_description:l10n_ru.field_res_users__passport_date
 msgid "Passport issue date"
-msgstr ""
+msgstr "Дата выдачи паспорта"
 
 #. module: l10n_ru
 #: model:ir.model.fields,field_description:l10n_ru.field_res_partner__passport_department
 #: model:ir.model.fields,field_description:l10n_ru.field_res_users__passport_department
 msgid "Passport issued by"
-msgstr ""
+msgstr "Паспорт выдан"
 
 #. module: l10n_ru
 #: model:ir.model.fields,help:l10n_ru.field_res_partner__passport_number
 #: model:ir.model.fields,help:l10n_ru.field_res_users__passport_number
 msgid "Passport series and number"
-msgstr ""
+msgstr "Серия и номер паспорта"
 
 #. module: l10n_ru
 #: model:ir.model.fields,field_description:l10n_ru.field_res_partner__passport_number
 #: model:ir.model.fields,field_description:l10n_ru.field_res_users__passport_number
 msgid "Passport №"
-msgstr ""
+msgstr "№ паспорта"
 
 #. module: l10n_ru
 #: model:ir.model.fields,help:l10n_ru.field_res_partner__passport_date
 #: model:ir.model.fields,help:l10n_ru.field_res_users__passport_date
 msgid "Passport's date of issue"
-msgstr ""
+msgstr "Дата выдачи паспорта"
 
 #. module: l10n_ru
 #: model:ir.model.fields,help:l10n_ru.field_res_partner__psrn
 #: model:ir.model.fields,help:l10n_ru.field_res_users__psrn
 msgid "Primary State Registration Number"
-msgstr ""
+msgstr "Основной Государственный Регистрационный Номер"
 
 #. module: l10n_ru
 #: model_terms:ir.ui.view,arch_db:l10n_ru.l10n_ru_view_partner_form_inherit
 msgid "TIN"
-msgstr ""
+msgstr "ИНН"
