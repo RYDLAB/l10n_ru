@@ -4,18 +4,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Odoo Server 13.0-20201002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-01 19:49+0000\n"
-"PO-Revision-Date: 2021-01-27 10:02+0500\n"
+"POT-Creation-Date: 2021-01-27 07:01+0000\n"
+"PO-Revision-Date: 2021-01-27 12:10+0500\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 2.4.2\n"
-"Last-Translator: \n"
+"Plural-Forms: \n"
 "Language: ru\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. module: l10n_ru
 #: model:ir.model.fields,help:l10n_ru.field_res_partner__okpo
@@ -69,9 +69,9 @@ msgid "PSRN"
 msgstr "ОГРН"
 
 #. module: l10n_ru
-#: model_terms:ir.ui.view,arch_db:l10n_ru.l10n_ru_view_partner_form_inherit
+#: model_terms:ir.ui.view,arch_db:l10n_ru.view_partner_form_inherit
 msgid "Passport"
-msgstr "Паспорт"
+msgstr ""
 
 #. module: l10n_ru
 #: model:ir.model.fields,field_description:l10n_ru.field_res_partner__passport_date
@@ -110,6 +110,6 @@ msgid "Primary State Registration Number"
 msgstr "Основной Государственный Регистрационный Номер"
 
 #. module: l10n_ru
-#: model_terms:ir.ui.view,arch_db:l10n_ru.l10n_ru_view_partner_form_inherit
+#: model_terms:ir.ui.view,arch_db:l10n_ru.view_partner_form_inherit
 msgid "TIN"
 msgstr "ИНН"

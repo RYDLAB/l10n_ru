@@ -71,7 +71,7 @@ msgid "PSRN"
 msgstr ""
 
 #. module:  l10n_ru
-#: model:ir.ui.view,arch_db: l10n_ru. l10n_ru_view_partner_form_inherit
+#: model:ir.ui.view,arch_db: l10n_ru.view_partner_form_inherit
 msgid "Passport"
 msgstr ""
 
@@ -106,6 +106,6 @@ msgid "Primary State Registration Number"
 msgstr ""
 
 #. module:  l10n_ru
-#: model:ir.ui.view,arch_db: l10n_ru. l10n_ru_view_partner_form_inherit
+#: model:ir.ui.view,arch_db: l10n_ru.view_partner_form_inherit
 msgid "TIN"
 msgstr ""
