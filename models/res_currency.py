@@ -4,6 +4,6 @@ from odoo import fields, models
 
 
 class Currency(models.Model):
-    _inherit = 'res.currency'
+    _inherit = "res.currency"
 
-    number_code = fields.Char(string='Number code', size=3)
+    number_code = fields.Char(string="Number code", size=3)
