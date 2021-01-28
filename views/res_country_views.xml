@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <odoo>
 
-    <record id="base_view_country_tree_inherit_electronic_document_management" model="ir.ui.view">
+    <record id="base_view_country_tree" model="ir.ui.view">
         <field name="name">res.country.tree.inherit</field>
         <field name="model">res.country</field>
         <field name="inherit_id" ref="base.view_country_tree"/>
@@ -12,7 +12,7 @@
         </field>
     </record>
 
-    <record id="base_view_country_form_inherit_electronic_document_management" model="ir.ui.view">
+    <record id="base_view_country_form" model="ir.ui.view">
         <field name="name">res.country.form.inherit</field>
         <field name="model">res.country</field>
         <field name="inherit_id" ref="base.view_country_form"/>
@@ -24,7 +24,7 @@
     </record>
 
     <!-- State -->
-    <record id="base_view_country_state_tree_inherit_electronic_document_management" model="ir.ui.view">
+    <record id="base_view_country_state_tree" model="ir.ui.view">
         <field name="name">res.country.state.tree.inherit</field>
         <field name="model">res.country.state</field>
         <field name="inherit_id" ref="base.view_country_state_tree"/>
@@ -35,7 +35,7 @@
         </field>
     </record>
 
-    <record id="base_view_country_state_form_inherit_electronic_document_management" model="ir.ui.view">
+    <record id="base_view_country_state_form" model="ir.ui.view">
         <field name="name">res.country.state.form.inherit</field>
         <field name="model">res.country.state</field>
         <field name="inherit_id" ref="base.view_country_state_form"/>
