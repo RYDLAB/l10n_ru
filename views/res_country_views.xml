@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <record id="base_view_country_tree_inherit_electronic_document_management" model="ir.ui.view">
+        <field name="name">res.country.tree.inherit</field>
+        <field name="model">res.country</field>
+        <field name="inherit_id" ref="base.view_country_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='code']" position="after">
+                <field name="number_code"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="base_view_country_form_inherit_electronic_document_management" model="ir.ui.view">
+        <field name="name">res.country.form.inherit</field>
+        <field name="model">res.country</field>
+        <field name="inherit_id" ref="base.view_country_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='code']" position="after">
+                <field name="number_code"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- State -->
+    <record id="base_view_country_state_tree_inherit_electronic_document_management" model="ir.ui.view">
+        <field name="name">res.country.state.tree.inherit</field>
+        <field name="model">res.country.state</field>
+        <field name="inherit_id" ref="base.view_country_state_tree"/>
+        <field name="arch" type="xml">
+             <xpath expr="//field[@name='code']" position="after">
+                <field name="number_code"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="base_view_country_state_form_inherit_electronic_document_management" model="ir.ui.view">
+        <field name="name">res.country.state.form.inherit</field>
+        <field name="model">res.country.state</field>
+        <field name="inherit_id" ref="base.view_country_state_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='code']" position="after">
+                <field name="number_code"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
