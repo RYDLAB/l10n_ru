@@ -225,19 +225,16 @@ class Partner(models.Model):
                         % (partner_rec.psrn, ", ".join(partner_names))
                     )
 
-            if (
-                partner_rec.psrn
-                and (
-                    (
-                        int(partner_rec.psrn[0]) in (1, 5)
-                        and partner_rec.company_form in ("sp", "ga")
-                    )
-                    or (
-                        int(partner_rec.psrn[0]) not in (1, 3, 5)
-                        and partner_rec.company_form not in ("sp", "ga")
-                    )
-                    or int(partner_rec.psrn[0]) == 3
+            if partner_rec.psrn and (
+                (
+                    int(partner_rec.psrn[0]) in (1, 5)
+                    and partner_rec.company_form in ("sp", "ga")
                 )
+                or (
+                    int(partner_rec.psrn[0]) not in (1, 3, 5)
+                    and partner_rec.company_form not in ("sp", "ga")
+                )
+                or int(partner_rec.psrn[0]) == 3
             ):
                 raise ValidationError(_("First PSRN symbol mismatch company form."))
 
