@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
-    <data>
+	<data>
         <!-- Country -->
 		<record id="base.au"  model="res.country">
 			<field name="number_code">36</field>
@@ -110,6 +109,7 @@
 		</record>
 		<record id="base.uk"  model="res.country">
 			<field name="number_code">826</field>
+			<field name="l10n_ru_short_name">UK</field>
 		</record>
 		<record id="base.hu"  model="res.country">
 			<field name="number_code">348</field>
@@ -266,6 +266,7 @@
 		</record>
 		<record id="base.cn"  model="res.country">
 			<field name="number_code">156</field>
+			<field name="l10n_ru_short_name">PRC</field>
 		</record>
 		<record id="base.ad"  model="res.country">
 			<field name="number_code">20</field>
@@ -428,6 +429,7 @@
 		</record>
 		<record id="base.ae"  model="res.country">
 			<field name="number_code">784</field>
+			<field name="l10n_ru_short_name">UAE</field>
 		</record>
 		<record id="base.om"  model="res.country">
 			<field name="number_code">512</field>
@@ -497,6 +499,7 @@
 		</record>
 		<record id="base.ru"  model="res.country">
 			<field name="number_code">643</field>
+			<field name="l10n_ru_short_name">RF</field>
 		</record>
 		<record id="base.rw"  model="res.country">
 			<field name="number_code">646</field>
@@ -557,6 +560,7 @@
 		</record>
 		<record id="base.us"  model="res.country">
 			<field name="number_code">840</field>
+			<field name="l10n_ru_short_name">USA</field>
 		</record>
 		<record id="base.sb"  model="res.country">
 			<field name="number_code">90</field>
@@ -656,6 +660,7 @@
 		</record>
 		<record id="base.cf"  model="res.country">
 			<field name="number_code">140</field>
+			<field name="l10n_ru_short_name">CAR</field>
 		</record>
 		<record id="base.td"  model="res.country">
 			<field name="number_code">148</field>
@@ -698,6 +703,7 @@
 <!--		</record>-->
 		<record id="base.za"  model="res.country">
 			<field name="number_code">710</field>
+			<field name="l10n_ru_short_name">SA</field>
 		</record>
 		<record id="base.gs"  model="res.country">
 			<field name="number_code">239</field>
@@ -711,6 +717,5 @@
 		<record id="base.jp"  model="res.country">
 			<field name="number_code">392</field>
 		</record>
-    </data>
-
+	</data>
 </odoo>

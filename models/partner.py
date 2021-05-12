@@ -67,7 +67,7 @@ class Partner(models.Model):
         string="Passport issued by", help="Department issued the passport"
     )
     passport_date = fields.Date(
-        string="Passport issue date", help="Passport's date of issue"
+        string="Passport issue date", help="Passport issue date"
     )
 
     @api.constrains("is_company")
