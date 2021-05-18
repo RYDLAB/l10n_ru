@@ -9,6 +9,7 @@ class Country(models.Model):
     number_code = fields.Char(string="Number code", size=3)
     l10n_ru_short_name = fields.Char(
         string="Short name",
+        translate=True,
         help="In some cases is required to use shortened name. This is it.",
     )
 
