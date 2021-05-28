@@ -93,11 +93,13 @@ class Partner(models.Model):
             if (
                 partner_rec.vat
                 and partner_rec.country_id.code == "RU"
+                and not partner_rec.parent_id
                 and not fullmatch(vat_regex, partner_rec.vat)
             ):
                 raise ValidationError(
                     _(
-                        "TIN is incorrect. Please check the TIN data and the company/individual setting."
+                        "TIN for partner %s is incorrect. Please check the TIN data and the company/individual setting."
+                        % partner_rec.name
                     )
                 )
 
