@@ -27,11 +27,13 @@
         "views/res_currency_views.xml",
         "data/account_chart.xml",
         "data/account.account.template.csv",
+	"data/res.partner.title.csv",
         "data/account_chart_template.xml",
         "data/account_tax_template.xml",
         "data/account_chart_template_data.xml",
         "data/res_country_data.xml",
         "data/res_country_state_data.xml",
         "data/res_currency_data.xml",
+        # "data/res_partner_title.xml",
     ],
 }
