@@ -16,10 +16,7 @@
     "website": "https://rydlab.ru",
     "category": "Localization",
     "version": "1.0",
-    "depends": [
-        "base",
-        "account",
-    ],
+    "depends": ["base", "account"],
     "data": [
         "views/partner.xml",
         "views/bank.xml",

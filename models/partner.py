@@ -69,6 +69,7 @@ class Partner(models.Model):
     passport_date = fields.Date(
         string="Passport issue date", help="Passport issue date"
     )
+    birth_date = fields.Date(string="Birth date", help="Person's birth date")
 
     @api.constrains("is_company")
     def _check_company_form_fill(self):
