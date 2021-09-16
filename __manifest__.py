@@ -18,10 +18,6 @@
     "version": "1.0",
     "depends": ["base", "account"],
     "data": [
-        "views/partner.xml",
-        "views/bank.xml",
-        "views/res_country_views.xml",
-        "views/res_currency_views.xml",
         "data/account_chart.xml",
         "data/account.account.template.csv",
         "data/res.partner.title.csv",
@@ -31,5 +27,9 @@
         "data/res_country_data.xml",
         "data/res_country_state_data.xml",
         "data/res_currency_data.xml",
+        "views/partner.xml",
+        "views/bank.xml",
+        "views/res_country_views.xml",
+        "views/res_currency_views.xml",
     ],
 }
