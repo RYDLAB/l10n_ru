@@ -14,7 +14,7 @@
     """,
     "author": "RYDLAB",
     "website": "https://rydlab.ru",
-    "category": "Localization",
+    "category": "Accounting/Localizations/Account Charts",
     "version": "1.0",
     "depends": ["base", "account"],
     "data": [
