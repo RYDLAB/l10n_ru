@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
+import logging
+from odoo import fields, models, api
 
-from odoo import fields, models
+logger = logging.getLogger()
 
 
 class UoM(models.Model):
