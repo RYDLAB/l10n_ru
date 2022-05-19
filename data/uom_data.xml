@@ -7,7 +7,7 @@
         <value eval="{'noupdate': False}" />
     </function>
     <record id="uom.product_uom_unit" model="uom.uom">
-        <field name="uom_code">000</field>
+        <field name="uom_code">642</field>
     </record>
 
     <function name="write" model="ir.model.data">
