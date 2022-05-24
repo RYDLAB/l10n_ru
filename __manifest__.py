@@ -17,6 +17,7 @@
     "category": "Localization",
     "version": "1.0",
     "depends": ["base", "account", "uom", "product"],
+    "pre_init_hook": "pre_init_hook",
     "data": [
         "data/account_chart.xml",
         "data/account.account.template.csv",

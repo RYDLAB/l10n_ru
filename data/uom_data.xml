@@ -1,76 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo noupdate="1">
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_unit')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
+<odoo>
+
     <record id="uom.product_uom_unit" model="uom.uom">
         <field name="uom_code">642</field>
     </record>
 
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_dozen')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_dozen" model="uom.uom">
         <field name="uom_code">641</field>
     </record>
 
-
     <!-- WORKING TIME -->
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_day')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_day" model="uom.uom">
         <field name="uom_code">359</field>
     </record>
 
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_hour')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_hour" model="uom.uom">
         <field name="uom_code">356</field>
     </record>
 
     <!-- LENGTH -->
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_meter')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_meter" model="uom.uom">
         <field name="uom_code">006</field>
     </record>
 <!--    <record id="uom.product_uom_millimeter" model="uom.uom">-->
 <!--        <field name="uom_code">003</field>-->
 <!--    </record>-->
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_km')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_km" model="uom.uom">
         <field name="uom_code">008</field>
     </record>
 
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_cm')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_cm" model="uom.uom">
         <field name="uom_code">004</field>
     </record>
@@ -81,84 +39,36 @@
 <!--    </record>-->
 
     <!-- VOLUME -->
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_litre')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_litre" model="uom.uom">
         <field name="uom_code">112</field>
     </record>
 
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_cubic_meter')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_cubic_meter" model="uom.uom">
         <field name="uom_code">113</field>
     </record>
 
     <!-- WEIGHT -->
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_kgm')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_kgm" model="uom.uom">
         <field name="uom_code">166</field>
     </record>
 
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_gram')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_gram" model="uom.uom">
         <field name="uom_code">163</field>
     </record>
 
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_ton')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_ton" model="uom.uom">
         <field name="uom_code">168</field>
     </record>
 
     <!-- LENGTH -->
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_inch')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_inch" model="uom.uom">
         <field name="uom_code">039</field>
     </record>
 
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_foot')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_foot" model="uom.uom">
         <field name="uom_code">041</field>
     </record>
 
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_mile')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_mile" model="uom.uom">
         <field name="uom_code">047</field>
     </record>
@@ -169,22 +79,10 @@
 <!--    </record>-->
 
 <!--    volume-->
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_cubic_inch')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_cubic_inch" model="uom.uom">
         <field name="uom_code">131</field>
     </record>
 
-    <function name="write" model="ir.model.data">
-        <function name="search" model="ir.model.data">
-            <value eval="[('module', '=', 'uom'), ('name', '=', 'product_uom_cubic_foot')]"/>
-        </function>
-        <value eval="{'noupdate': False}" />
-    </function>
     <record id="uom.product_uom_cubic_foot" model="uom.uom">
         <field name="uom_code">132</field>
     </record>
