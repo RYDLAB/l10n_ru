@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0-20220506\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-19 11:31+0000\n"
-"PO-Revision-Date: 2022-05-19 11:31+0000\n"
+"POT-Creation-Date: 2022-05-24 07:38+0000\n"
+"PO-Revision-Date: 2022-05-24 07:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -104,6 +104,7 @@ msgid "Department issued the passport"
 msgstr "Подразделение, выдавшее паспорт"
 
 #. module: l10n_ru
+#: model:ir.model.fields,field_description:l10n_ru.field_product_template__display_name
 #: model:ir.model.fields,field_description:l10n_ru.field_res_bank__display_name
 #: model:ir.model.fields,field_description:l10n_ru.field_res_country__display_name
 #: model:ir.model.fields,field_description:l10n_ru.field_res_country_state__display_name
@@ -134,6 +135,7 @@ msgid "Government agency"
 msgstr "Государственное учреждение"
 
 #. module: l10n_ru
+#: model:ir.model.fields,field_description:l10n_ru.field_product_template__id
 #: model:ir.model.fields,field_description:l10n_ru.field_res_bank__id
 #: model:ir.model.fields,field_description:l10n_ru.field_res_country__id
 #: model:ir.model.fields,field_description:l10n_ru.field_res_country_state__id
@@ -184,11 +186,17 @@ msgid "Institutional-Legal Form must be set up!"
 msgstr "Организационно-правовая форма должна быть установлена!"
 
 #. module: l10n_ru
+#: model:ir.model.fields,field_description:l10n_ru.field_product_template__default_code
+msgid "Internal Reference"
+msgstr "Внутренний артикул"
+
+#. module: l10n_ru
 #: model:ir.model.fields.selection,name:l10n_ru.selection__res_partner__company_form__jsc
 msgid "Joint stock company"
 msgstr "Акционерное общество"
 
 #. module: l10n_ru
+#: model:ir.model.fields,field_description:l10n_ru.field_product_template____last_update
 #: model:ir.model.fields,field_description:l10n_ru.field_res_bank____last_update
 #: model:ir.model.fields,field_description:l10n_ru.field_res_country____last_update
 #: model:ir.model.fields,field_description:l10n_ru.field_res_country_state____last_update
@@ -323,6 +331,11 @@ msgid "Private Limited Company"
 msgstr "Общество с ограниченной ответственностью"
 
 #. module: l10n_ru
+#: model:ir.model,name:l10n_ru.model_product_template
+msgid "Product Template"
+msgstr "Шаблон продукта"
+
+#. module: l10n_ru
 #: model:ir.model,name:l10n_ru.model_uom_uom
 msgid "Product Unit of Measure"
 msgstr "Ед. изм. продукта"
@@ -382,6 +395,21 @@ msgid ""
 "TIN for partner %s is incorrect. Please check the TIN data and the "
 "company/individual setting."
 msgstr ""
+
+#. module: l10n_ru
+#: model:ir.model.fields,help:l10n_ru.field_product_template__default_code
+msgid ""
+"The field is used as a product code\n"
+"     in the document template 'UPD', 'Invoice', 'Act'.\n"
+"     \n"
+"     If this is not a product, but a service,\n"
+"     then you need to specify the 'ОКВЕД' service code https://код-оквэд.рф"
+msgstr ""
+"Поле используется как код продукта\n"
+"     в шаблоне документов 'УПД', 'Товарная накладная', 'Акт'.\n"
+"     \n"
+"     Если это не продукт, а услуга,\n"
+"     тогда указывается код услуги по 'ОКВЕД' https://код-оквэд.рф"
 
 #. module: l10n_ru
 #: model:ir.model.fields,help:l10n_ru.field_uom_uom__uom_code

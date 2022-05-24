@@ -16,7 +16,7 @@
     "website": "https://rydlab.ru",
     "category": "Localization",
     "version": "1.0",
-    "depends": ["base", "account", "uom"],
+    "depends": ["base", "account", "uom", "product"],
     "data": [
         "data/account_chart.xml",
         "data/account.account.template.csv",
