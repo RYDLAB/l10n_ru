@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0-20220506\n"
+"Project-Id-Version: Odoo Server 14.0+e-20220110\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 07:38+0000\n"
-"PO-Revision-Date: 2022-05-24 07:38+0000\n"
+"POT-Creation-Date: 2022-06-20 10:18+0000\n"
+"PO-Revision-Date: 2022-06-20 10:18+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -301,7 +301,7 @@ msgstr "№ паспорта"
 #: model:ir.model.fields,help:l10n_ru.field_res_partner__birth_date
 #: model:ir.model.fields,help:l10n_ru.field_res_users__birth_date
 msgid "Person's birth date"
-msgstr ""
+msgstr "Дата рождения"
 
 #. module: l10n_ru
 #: model:ir.model.fields,help:l10n_ru.field_res_partner__psrn
@@ -394,7 +394,7 @@ msgstr "ИНН"
 msgid ""
 "TIN for partner %s is incorrect. Please check the TIN data and the "
 "company/individual setting."
-msgstr ""
+msgstr "ИНН для %s неправильный. Пожалуйста проверьте данные ИНН и настройку компании/физического лица"
 
 #. module: l10n_ru
 #: model:ir.model.fields,help:l10n_ru.field_product_template__default_code
