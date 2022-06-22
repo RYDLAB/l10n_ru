@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0+e-20210305\n"
+"Project-Id-Version: Odoo Server 14.0-20220506\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-14 09:56+0000\n"
-"PO-Revision-Date: 2021-05-14 09:56+0000\n"
+"POT-Creation-Date: 2022-05-24 07:38+0000\n"
+"PO-Revision-Date: 2022-05-24 07:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -62,6 +62,12 @@ msgid "Bank"
 msgstr "Банк"
 
 #. module: l10n_ru
+#: model:ir.model.fields,field_description:l10n_ru.field_res_partner__birth_date
+#: model:ir.model.fields,field_description:l10n_ru.field_res_users__birth_date
+msgid "Birth date"
+msgstr ""
+
+#. module: l10n_ru
 #: model:ir.model,name:l10n_ru.model_res_partner
 msgid "Contact"
 msgstr "Контакт"
@@ -84,7 +90,7 @@ msgstr "Страна"
 #. module: l10n_ru
 #: model:ir.model,name:l10n_ru.model_res_country_state
 msgid "Country state"
-msgstr "Регион"
+msgstr "Область"
 
 #. module: l10n_ru
 #: model:ir.model,name:l10n_ru.model_res_currency
@@ -98,11 +104,13 @@ msgid "Department issued the passport"
 msgstr "Подразделение, выдавшее паспорт"
 
 #. module: l10n_ru
+#: model:ir.model.fields,field_description:l10n_ru.field_product_template__display_name
 #: model:ir.model.fields,field_description:l10n_ru.field_res_bank__display_name
 #: model:ir.model.fields,field_description:l10n_ru.field_res_country__display_name
 #: model:ir.model.fields,field_description:l10n_ru.field_res_country_state__display_name
 #: model:ir.model.fields,field_description:l10n_ru.field_res_currency__display_name
 #: model:ir.model.fields,field_description:l10n_ru.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_ru.field_uom_uom__display_name
 msgid "Display Name"
 msgstr "Отображаемое имя"
 
@@ -111,7 +119,8 @@ msgstr "Отображаемое имя"
 #, python-format
 msgid "First PSRN SP symbol mismatch company form."
 msgstr ""
-"Первый символ ОГРН ИП не соответствует организацонно-правовой форме компании."
+"Первый символ ОГРН ИП не соответствует организацонно-правовой форме "
+"компании."
 
 #. module: l10n_ru
 #: code:addons/l10n_ru/models/partner.py:0
@@ -126,11 +135,13 @@ msgid "Government agency"
 msgstr "Государственное учреждение"
 
 #. module: l10n_ru
+#: model:ir.model.fields,field_description:l10n_ru.field_product_template__id
 #: model:ir.model.fields,field_description:l10n_ru.field_res_bank__id
 #: model:ir.model.fields,field_description:l10n_ru.field_res_country__id
 #: model:ir.model.fields,field_description:l10n_ru.field_res_country_state__id
 #: model:ir.model.fields,field_description:l10n_ru.field_res_currency__id
 #: model:ir.model.fields,field_description:l10n_ru.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_ru.field_uom_uom__id
 msgid "ID"
 msgstr "Идентификатор"
 
@@ -175,16 +186,23 @@ msgid "Institutional-Legal Form must be set up!"
 msgstr "Организационно-правовая форма должна быть установлена!"
 
 #. module: l10n_ru
+#: model:ir.model.fields,field_description:l10n_ru.field_product_template__default_code
+msgid "Internal Reference"
+msgstr "Внутренний артикул"
+
+#. module: l10n_ru
 #: model:ir.model.fields.selection,name:l10n_ru.selection__res_partner__company_form__jsc
 msgid "Joint stock company"
 msgstr "Акционерное общество"
 
 #. module: l10n_ru
+#: model:ir.model.fields,field_description:l10n_ru.field_product_template____last_update
 #: model:ir.model.fields,field_description:l10n_ru.field_res_bank____last_update
 #: model:ir.model.fields,field_description:l10n_ru.field_res_country____last_update
 #: model:ir.model.fields,field_description:l10n_ru.field_res_country_state____last_update
 #: model:ir.model.fields,field_description:l10n_ru.field_res_currency____last_update
 #: model:ir.model.fields,field_description:l10n_ru.field_res_partner____last_update
+#: model:ir.model.fields,field_description:l10n_ru.field_uom_uom____last_update
 msgid "Last Modified on"
 msgstr "Последнее изменение"
 
@@ -280,6 +298,12 @@ msgid "Passport №"
 msgstr "№ паспорта"
 
 #. module: l10n_ru
+#: model:ir.model.fields,help:l10n_ru.field_res_partner__birth_date
+#: model:ir.model.fields,help:l10n_ru.field_res_users__birth_date
+msgid "Person's birth date"
+msgstr ""
+
+#. module: l10n_ru
 #: model:ir.model.fields,help:l10n_ru.field_res_partner__psrn
 #: model:ir.model.fields,help:l10n_ru.field_res_users__psrn
 msgid ""
@@ -305,6 +329,16 @@ msgstr ""
 #: model:ir.model.fields.selection,name:l10n_ru.selection__res_partner__company_form__plc
 msgid "Private Limited Company"
 msgstr "Общество с ограниченной ответственностью"
+
+#. module: l10n_ru
+#: model:ir.model,name:l10n_ru.model_product_template
+msgid "Product Template"
+msgstr "Шаблон продукта"
+
+#. module: l10n_ru
+#: model:ir.model,name:l10n_ru.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "Ед. изм. продукта"
 
 #. module: l10n_ru
 #: model:ir.model.fields.selection,name:l10n_ru.selection__res_partner__company_form__pc
@@ -358,10 +392,34 @@ msgstr "ИНН"
 #: code:addons/l10n_ru/models/partner.py:0
 #, python-format
 msgid ""
-"TIN is incorrect. Please check the TIN data and the company/individual "
-"setting."
+"TIN for partner %s is incorrect. Please check the TIN data and the "
+"company/individual setting."
 msgstr ""
-"ИНН не корректен. Пожалуйста, проверьте данные ИНН и настройку \"Человек/Компания\""
+
+#. module: l10n_ru
+#: model:ir.model.fields,help:l10n_ru.field_product_template__default_code
+msgid ""
+"The field is used as a product code\n"
+"     in the document template 'UPD', 'Invoice', 'Act'.\n"
+"     \n"
+"     If this is not a product, but a service,\n"
+"     then you need to specify the 'ОКВЕД' service code https://код-оквэд.рф"
+msgstr ""
+"Поле используется как код продукта\n"
+"     в шаблоне документов 'УПД', 'Товарная накладная', 'Акт'.\n"
+"     \n"
+"     Если это не продукт, а услуга,\n"
+"     тогда указывается код услуги по 'ОКВЕД' https://код-оквэд.рф"
+
+#. module: l10n_ru
+#: model:ir.model.fields,help:l10n_ru.field_uom_uom__uom_code
+msgid "The unit code for 'All-Russian classifier of units of measurement'"
+msgstr "Код единицы по 'Общероссийскому классификатору единиц измерения'"
+
+#. module: l10n_ru
+#: model:ir.model.fields,field_description:l10n_ru.field_uom_uom__uom_code
+msgid "Unit code"
+msgstr "Код единицы измерения"
 
 #. module: l10n_ru
 #: code:addons/l10n_ru/models/partner.py:0

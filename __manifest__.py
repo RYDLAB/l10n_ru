@@ -16,7 +16,8 @@
     "website": "https://rydlab.ru",
     "category": "Accounting/Localizations/Account Charts",
     "version": "1.0",
-    "depends": ["base", "account"],
+    "depends": ["base", "account", "uom", "product"],
+    "pre_init_hook": "pre_init_hook",
     "data": [
         "data/account_chart.xml",
         "data/account.account.template.csv",
@@ -27,9 +28,11 @@
         "data/res_country_data.xml",
         "data/res_country_state_data.xml",
         "data/res_currency_data.xml",
+        "data/uom_data.xml",
         "views/partner.xml",
         "views/bank.xml",
         "views/res_country_views.xml",
         "views/res_currency_views.xml",
+        "views/uom_uom_views.xml",
     ],
 }
