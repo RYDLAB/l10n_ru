@@ -6,7 +6,7 @@
             <field name="code">000</field>
             <field name="name">Вспомогательный счет</field>
             <field name="reconcile" eval='True'/>
-            <field name="user_type_id" ref="account.data_account_type_current_assets"/>
+            <field name="account_type">asset_current</field>
         </record>
 
         <record id="account_chart_template" model="account.chart.template">
