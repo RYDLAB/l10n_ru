@@ -15,7 +15,7 @@
     "author": "RYDLAB",
     "website": "https://rydlab.ru",
     "category": "Accounting/Localizations/Account Charts",
-    "version": "1.0",
+    "version": "15.0.1.0.0",
     "depends": ["base", "account", "uom", "product"],
     "pre_init_hook": "pre_init_hook",
     "data": [
