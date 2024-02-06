@@ -35,4 +35,5 @@
         "views/res_currency_views.xml",
         "views/uom_uom_views.xml",
     ],
+    "license": "LGPL-3",
 }
