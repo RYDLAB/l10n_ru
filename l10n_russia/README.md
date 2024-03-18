@@ -1,4 +1,4 @@
-# l10n_ru
+# l10n_russia
 Adds russian respecific requisites for juridical and physical persons.
 
 Adds next requisites:
