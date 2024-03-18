@@ -36,4 +36,5 @@
         "views/uom_uom_views.xml",
     ],
     "license": "LGPL-3",
+    "images": ["static/description/banner.png"],
 }
