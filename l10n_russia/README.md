@@ -5,7 +5,7 @@ Adds next requisites:
 - Passport series and number,
 - Passport issue date,
 - Department issued the passport,
-- IEC - Industrial Enterprises Classifier,
-- PSRN - Primary State Registration Number,
-- OKPO - All-Russian Classifier of Enterprises and Organizations,
+- IEC(КПП) - Industrial Enterprises Classifier,
+- PSRN(ОГРН) - Primary State Registration Number,
+- OKPO(ОКПО) - All-Russian Classifier of Enterprises and Organizations,
 - Bank corresponding account.
