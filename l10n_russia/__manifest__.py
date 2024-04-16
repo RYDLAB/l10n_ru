@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    "name": "l10n_russia",
+    "name": "Russian Localization",
     "summary": """
         Adds russian respecific requisites for juridical and physical persons""",
     "description": """Adds next requisites:\n
