@@ -42,6 +42,7 @@ class Partner(models.Model):
             ("jsc", "Joint stock company"),
             ("pc", "Public company"),
             ("ga", "Government agency"),
+            ("сjsc", "Сlosed joint stock company"),
         ],
         string="Institutional-Legal Form",
         default="plc",

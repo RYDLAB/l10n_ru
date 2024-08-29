@@ -135,6 +135,11 @@ msgid "Government agency"
 msgstr "Государственное учреждение"
 
 #. module: l10n_russia
+#: model:ir.model.fields.selection,name:l10n_russia.selection__res_partner__company_form__cjsc
+msgid "Сlosed joint stock company"
+msgstr "Закрытое акционерное общество"
+
+#. module: l10n_russia
 #: model:ir.model.fields,field_description:l10n_russia.field_product_template__id
 #: model:ir.model.fields,field_description:l10n_russia.field_res_bank__id
 #: model:ir.model.fields,field_description:l10n_russia.field_res_country__id
