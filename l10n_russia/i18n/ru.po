@@ -185,6 +185,11 @@ msgstr "Организационно-правовая форма"
 msgid "Institutional-Legal Form must be set up!"
 msgstr "Организационно-правовая форма должна быть установлена!"
 
+#. module: l10n_ru
+#: model:ir.model.fields.selection,name:l10n_ru.selection__res_partner__company_form__сjsc
+msgid "Сlosed joint stock company"
+msgstr "Закрытое акционерное общество"
+
 #. module: l10n_russia
 #: model:ir.model.fields,field_description:l10n_russia.field_product_template__default_code
 msgid "Internal Reference"
